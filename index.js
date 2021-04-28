@@ -69,11 +69,13 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 
 
 function is31Flavors(array){
-//    console.log(array.length);
-//    if array === 31;
-//    console.log(true);
-//    return array.length
-}
+    let length = array.length
+    if (length === 31) {
+      return true;
+    } 
+ }
+ 
+ console.log(is31Flavors(originalFlavors));
 
 // console.log(is31Flavors(originalFlavors));
 
